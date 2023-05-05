@@ -1,0 +1,51 @@
+{
+  "SourceSystemType": "EXTERNAL", //Static
+  "SourceSystemCode": "FUSION_MOBILE", //Static
+  "OperationTransactionDetail": [
+    {
+      "OperationTransactionDFF": [
+        {
+          "mobileApplicationUser": "urvashi"
+        }
+      ],
+      "TransactionQuantity": "1", //Qty enter in competed qty
+      "WorkOrderNumber": "WO-001-1020",
+      "OrganizationCode": "001",
+      "WoOperationSequenceNumber": "10",
+      "SourceSystemCode": "FUSION_MOBILE", //static
+      "TransactionUnitOfMeasure": "Each",
+      "ToDispatchState": "COMPLETE", //Static for completed qty object
+      "FromDispatchState": "READY" //Static
+    },
+    {
+      "OperationTransactionDFF": [
+        {
+          "mobileApplicationUser": "urvashi"
+        }
+      ],
+      "TransactionQuantity": "1", // qty entered for scrap qty
+      "WorkOrderNumber": "WO-001-1020",
+      "OrganizationCode": "001",
+      "WoOperationSequenceNumber": "10",
+      "SourceSystemCode": "FUSION_MOBILE", //static
+      "TransactionUnitOfMeasure": "Each",
+      "ToDispatchState": "SCRAP", //static for scrap qty object
+      "FromDispatchState": "READY" // static
+    },
+    {
+      "OperationTransactionDFF": [
+        {
+          "mobileApplicationUser": "urvashi"
+        }
+      ],
+      "TransactionQuantity": "1", // qty entered for rejected qty
+      "WorkOrderNumber": "WO-001-1020",
+      "OrganizationCode": "001",
+      "WoOperationSequenceNumber": "10",
+      "SourceSystemCode": "FUSION_MOBILE", //static
+      "TransactionUnitOfMeasure": "Each",
+      "ToDispatchState": "REJECT", //static for rejected qty object
+      "FromDispatchState": "READY" // static
+    }
+  ]
+}
